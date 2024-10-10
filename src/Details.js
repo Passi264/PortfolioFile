@@ -33,7 +33,7 @@ import airbnb from "./assets/projects/airbnb.png";
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Prateek Passi",
-  tagline: "I build things for web",
+  tagline: "Understanding Data as it is.",
   img: profile,
   about: "Detail-oriented Data Analyst with a strong foundation in data visualization, statistical analysis, and business intelligence tools. Proven ability to translate complex datasets into actionable insights to support strategic decision-making. Experienced in building interactive dashboards, conducting predictive modeling, and optimizing workflows. Eager to apply analytical skills to drive data-driven decision-making in business environments.",
 };
