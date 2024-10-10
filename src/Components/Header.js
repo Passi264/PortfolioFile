@@ -10,10 +10,10 @@ function Header() {
   };
 
   return (
-    <header className="container mx-auto md:flex justify-between py-0.5 max-width">
-      <div className="flex justify-between items-center py-0.5 md:py-0.5">
+    <header className="container mx-auto md:flex justify-between py-1 max-width">
+      <div className="flex justify-between items-center py-4 md:py-4">
         <NavLink to="/">
-          <img className="w-10 h-auto" src="https://img.icons8.com/?size=100&id=jOax54v9qv62&format=png&color=000000" alt="logo" />
+          <h1 className=" dark:text-white ">Prateek Passi</h1>
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
