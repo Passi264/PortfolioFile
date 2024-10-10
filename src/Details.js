@@ -1,175 +1,181 @@
 // Enter all your detials in this file
-// Logo images
-import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo2.svg";
-// Profile Image
-import profile from "./assets/profile.jpg";
-// Tech stack images
-import html from "./assets/techstack/html.png";
-import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
-import js from "./assets/techstack/js.png";
-import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
-import tailwind from "./assets/techstack/tailwind.png";
-import bootstrap from "./assets/techstack/bootstrap.png";
-import vscode from "./assets/techstack/vscode.png";
-import github from "./assets/techstack/github.png";
-import git from "./assets/techstack/git.png";
-import npm from "./assets/techstack/npm.png";
-import postman from "./assets/techstack/postman.png";
-import figma from "./assets/techstack/figma.png";
-// Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
 
-// Logos
-export const logos = {
-  logogradient: logogradient,
-  logo: logo,
-};
+
+// Profile Image
+import profile from "./assets/ui/profile.jpeg";
+// Tech stack images
+import bfs4 from "./assets/techstack/bfs4.png";
+import excel from "./assets/techstack/excel.png";
+import ggplot from "./assets/techstack/ggplot.png";
+import github from "./assets/techstack/github.png";
+import metplotlib from "./assets/techstack/metplotlib.png";
+import pandas from "./assets/techstack/pandas.png";
+import powerbi from "./assets/techstack/powerbi.png";
+import python from "./assets/techstack/python.png";
+import restfulapi from "./assets/techstack/restfulapi.jpg";
+import scikitlearn from "./assets/techstack/scikitlearn.png";
+import seaborn from "./assets/techstack/seaborn.png";
+import Tableausymbol from "./assets/techstack/Tableausymbol.png";
+import vscode from "./assets/techstack/vscode.png";
+import postman from "./assets/techstack/postman.png";
+import scrapy from "./assets/techstack/scrapy.png";
+import numpy from "./assets/techstack/numpy.png";
+
+// Porject Images
+import chat from "./assets/projects/chat.png";
+import priceprediction from "./assets/projects/priceprediction.png";
+import recommender from "./assets/projects/recommender.png";
+import cricc from "./assets/projects/cricc.png";
+import airbnb from "./assets/projects/airbnb.png";
+
+
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
+  name: "Prateek Passi",
   tagline: "I build things for web",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: "Detail-oriented Data Analyst with a strong foundation in data visualization, statistical analysis, and business intelligence tools. Proven ability to translate complex datasets into actionable insights to support strategic decision-making. Experienced in building interactive dashboards, conducting predictive modeling, and optimizing workflows. Eager to apply analytical skills to drive data-driven decision-making in business environments.",
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  linkdein: "https://www.linkedin.com/in/prateek1505/",
+  github: "https://github.com/Passi264",
 };
 
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Assistant Manager",
+    Company: "Dollarama",
+    Location: "Bowmanville",
+    Type: "Part Time",
+    Duration: "May 2024 - Present",
+  },
+  {
+    Position: "Sales Associate",
+    Company: "7-Eleven",
+    Location: "Oshawa",
+    Type: "Part Time",
+    Duration: "May 2023 - Dec 2023",
+  },
+  {
+    Position: "Associate Professional Software Engineer",
+    Company: "DXC Technology",
+    Location: "Remote",
     Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Sep 2022 - April 2023",
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
+    Position: "Postgraduate Certificate in Data Analytics for Business Decision Making",
+    Company: "Durham College",
+    Location: "Oshawa",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "May 2024 - Present",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
+    Position: "Postgraduate Certificate in Project Management",
+    Company: "Durham College",
+    Location: "Oshawa",
     Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "May 2023 - Dec 2023",
+  },
+  {
+    Position: "Data Analyst",
+    Company: "Udemy, YouTube, Google, Medium,Coursera",
+    Location: "Online",
+    Type: "Full Time",
+    Duration: "Jan 2023 - Present",
+  },
+  {
+    Position: "Bachelor in Electrical & Electronics",
+    Company: "Guru Gobind Singh Indraprastha University",
+    Location: "New Delhi",
+    Type: "Full Time",
+    Duration: "July 2018 - July 2022",
   },
 ];
 
 // Tech Stack and Tools
 export const techStackDetails = {
-  html: html,
-  css: css,
-  js: js,
-  react: react,
-  redux: redux,
-  sass: sass,
-  tailwind: tailwind,
-  bootstrap: bootstrap,
+  python: python,
+  pandas: pandas,
+  seaborn: seaborn,
+  metplotlib: metplotlib,
+  scikitlearn: scikitlearn,
+  ggplot: ggplot,
+  bfs4: bfs4,
+  excel: excel,
   vscode: vscode,
-  postman: postman,
-  npm: npm,
-  git: git,
+  restfulapi: restfulapi,
+  powerbi: powerbi,
+  Tableausymbol: Tableausymbol,
   github: github,
-  figma: figma,
+  postman: postman,
+  numpy: numpy,
+  scrapy: scrapy
 };
 
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
-    image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "WhatsApp Chat Analyzer",
+    image: chat,
+    description: "Analyze WhatsApp chat data using Python and Streamlit. This tool visualizes user activity, message counts, word frequencies, and emoji usage through timelines, heatmaps, and charts.",
+    techstack: "Python, Streamlit",
+    previewLink: "https://passi264-whatsapp-chat-anayzer-app-dofipe.streamlit.app/",
+    githubLink: "https://github.com/Passi264/Whatsapp-Chat-Anayzer",
+
   },
   {
-    title: "Project title 2",
-    image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Movie Recommender System",
+    image: recommender,
+    description: "A movie recommendation system that suggests similar movies based on a selected title. Fetches movie posters and details from the TMDB API, offering a personalized experience for users.",
+    techstack: "Python, Streamlit, TMDB API",
+    previewLink: "https://passi264-recommenderformovies-app-wqnewe.streamlit.app/",
+    githubLink: "https://github.com/Passi264/Recommenderformovies",
   },
   {
-    title: "Project title 3",
-    image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Property Price Prediction Model",
+    image: priceprediction,
+    description: "A predictive model for forecasting property prices in Bangalore. It is integrated into a website, allowing users to estimate prices based on property type.",
+    techstack: "Machine Learning, Python, Web Integration",
+    previewLink: "https://passi264-priceprediction-app-gubmoq.streamlit.app/",
+    githubLink: "https://github.com/Passi264/PricePrediction",
   },
   {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Real-Time Currency Conversion Chatbot",
+    image: chat,
+    description: "A chatbot built using Google's Dialogflow and Flask, hosted on Vercel. It provides real-time currency conversions, enhancing user experience by delivering instant exchange rates.",
+    techstack: "Dialogflow, Flask, Vercel",
+    previewLink: "https://passi264-frontendforchatbot-app-rllfrw.streamlit.app/",
+    githubLink: "https://github.com/Passi264/PricePrediction",
   },
   {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Power BI Team Selection Report",
+    image: cricc,
+    description: "A Power BI report designed for sports analysts, allowing them to select the top 11 players across various categories like batters, bowlers, and all-rounders, with performance metrics visualization.",
+    techstack: "Power BI",
+    previewLink: "https://github.com/Passi264/CricketDashboard",
+    githubLink: "https://github.com/Passi264/CricketDashboard",
   },
   {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Airbnb Tableau Dashboard",
+    image: airbnb,
+    description: "An academic Tableau dashboard using Airbnb data to help clients analyze pricing trends, booking variations, and market growth, assisting with market entry and strategy.",
+    techstack: "Tableau",
+    previewLink: "https://github.com/Passi264/AirBnb_Report",
+    githubLink: "https://github.com/Passi264/AirBnb_Report",
   },
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "prateekpassiwork@gmail.com",
+  phone: "226 961 8586",
 };
