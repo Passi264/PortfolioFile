@@ -1,6 +1,7 @@
 import React from "react";
 import Work from "../Components/Work";
 import { personalDetails, workDetails, eduDetails } from "../Details";
+import flow from "../assets/techstack/as.png";
 
 function About() {
   return (
@@ -43,6 +44,13 @@ function About() {
             />
           ))
         )}
+      </section>
+      <section>
+        <img
+          src={flow}// Replace with the actual image path
+          alt="Career Roadmap Diagram"
+          
+        />
       </section>
     </main>
   );
