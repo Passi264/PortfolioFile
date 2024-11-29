@@ -16,7 +16,7 @@ function Home() {
         x: "-100%",
         delay: 0.8,
         opacity: 0,
-        duration: 2,
+        duration: 1,
         ease: "Power3.easeOut",
       },
       "<"
@@ -27,7 +27,7 @@ function Home() {
           x: "-100%",
           delay: 0.5,
           opacity: 0,
-          duration: 2,
+          duration: 1,
           ease: "Power3.easeOut",
         },
         "<"
@@ -38,7 +38,7 @@ function Home() {
           x: "-100%",
           delay: 0.1,
           opacity: 0,
-          duration: 2,
+          duration: 1,
           ease: "Power3.easeOut",
         },
         "<"
@@ -49,7 +49,7 @@ function Home() {
           x: "200%",
           delay: 0.5,
           opacity: 0,
-          duration: 2,
+          duration: 1,
           ease: "Power3.easeOut",
         },
         "<"
@@ -63,7 +63,7 @@ function Home() {
           ref={h11}
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-          Hi,👋<br></br>My Name is<br></br>
+          Hi,👋<br></br>My Name is
         </h1>
         <h1
           ref={h12}

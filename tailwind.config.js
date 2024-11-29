@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary: "Poppins, sans-serif",
+        primary: `"Afacad Flux", serif`,
       },
       colors: {
         "light-content": "#A7A7A7",
