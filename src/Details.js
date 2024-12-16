@@ -2,7 +2,7 @@
 
 
 // Profile Image
-import profile from "./assets/ui/profile.jpeg";
+import profile from "./assets/ui/profile.webp";
 // Tech stack images
 import bfs4 from "./assets/techstack/bfs4.png";
 import excel from "./assets/techstack/excel.png";
@@ -33,7 +33,7 @@ import airbnb from "./assets/projects/airbnb.png";
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Prateek Passi",
-  tagline: "Understanding Data as it is.",
+  tagline: "“Turning data into insights, insights into action, and action into results.”",
   img: profile,
   about: "Detail-oriented Data Analyst with a strong foundation in data visualization, statistical analysis, and business intelligence tools. Proven ability to translate complex datasets into actionable insights to support strategic decision-making. Experienced in building interactive dashboards, conducting predictive modeling, and optimizing workflows. Eager to apply analytical skills to drive data-driven decision-making in business environments.",
 };
@@ -47,18 +47,11 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Assistant Manager",
+    Position: "Assistant Manager - Technology and Store Operations",
     Company: "Dollarama",
     Location: "Bowmanville",
     Type: "Part Time",
     Duration: "May 2024 - Present",
-  },
-  {
-    Position: "Sales Associate",
-    Company: "7-Eleven",
-    Location: "Oshawa",
-    Type: "Part Time",
-    Duration: "May 2023 - Dec 2023",
   },
   {
     Position: "Associate Professional Software Engineer",
@@ -76,7 +69,7 @@ export const eduDetails = [
     Company: "Durham College",
     Location: "Oshawa",
     Type: "Full Time",
-    Duration: "May 2024 - Present",
+    Duration: "May 2024 - Dec 2024",
   },
   {
     Position: "Postgraduate Certificate in Project Management",
