@@ -555,7 +555,7 @@ function Home() {
   }, []);
 
   return (
-    <main className="container mx-auto max-width section md:flex justify-between items-center">
+    <main className="container mx-auto max-width section md:flex justify-between items-center gap-4 py-4">
       {/* Text Section */}
       <div className="w-full md:w-2/3">
         <h1
